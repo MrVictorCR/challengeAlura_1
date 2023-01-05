@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-	background-color: #FFFF76;
+	background-color: #F3F5FC;
 }
 
 .logo{
@@ -27,7 +27,7 @@ body{
 	width: 960px;
 	height: 650px;
 	padding: 5px;
-	background: #FFFF76;
+	background: #F3F5FC;
 	
 	
 }
@@ -112,7 +112,7 @@ body{
 	padding: 16px;
 	margin-top: 5%;
 	margin-left: 15%;
-	background-color: #FFBD00; /* Orange */
+	background-color: #0A3871; /* Blue */
 	border-radius: 8px;
 	font-size: 14px; /* Size */	
 	border: none;
@@ -132,7 +132,7 @@ body{
 	
 	background-color: white;
 	color: black;
-	border: 2px solid #FFBD00; /* Orange */
+	border: 2px solid #0A3871; /* Blue */
 }
 
 .bDe{
