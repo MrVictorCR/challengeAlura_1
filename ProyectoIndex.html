@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Mundo Codificador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+		<script type = "text/javascript" src = "script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+		
+            <img class = "logo" src="Img/logo.png">
+		 	<h1 class = "msjTitle">Encriptador de Mensajes</h1>
+		
+        </header>
+        
+		
+			<div class = "generalBox">
+			
+				
+				<div class="inputBox">
+				
+					<input type="text" id="mInput" class="mainInput" required placeholder="Ingresa el texto aquí!">
+			
+				</div>
+				
+				<div class = "eText">
+				
+					<img id = "dibujo" src = "Img/Dibujo.png">
+					<h1 id = "txtRight">Ningún mensaje fue encontrado</h1>
+					<textarea id = "textArea" name = "txtArea" rows = "8" cols = "80">Debes ingresar el texto que deseas encriptar primero :)!</textarea>
+					<button id = "copy" onclick = "copy()">¡Copiar!</button>
+				
+				</div>
+				
+				<div class="secButtons">
+				
+					<p id = "pWithout">Solo minúsculas y sin acentos</p>
+					<button class="bE" onclick = "encriptar()">Encriptar</button>
+					<button class= "bDe" onclick = "desencriptar()">Desencriptar</button>
+				
+				</div>
+				
+				
+				
+			
+			
+		</div>
+    
+
+    </body>
+
+
+    <footer>
+        <img src="imagenes/logo-blanco.png"> <!-- Bro wtf con los comentarios ahora. Cambiar la wea plis -->
+		
+        <p class="copyright">&copy Copyright VíctorOrigins - 2022</p>
+    </footer>
+	
+	<script>
+	
+		/* Well I have to do many things
+		
+		Firstable think about how to create the conditional to chance the vowels to the encriptation instructions
+		I was thinking about use a conditional with an array, it would be a great option if I can change the caracteres
+		This would be with lenght and may be use an indice xd
+		This would be connected to a botton and this should be use to do that
+		At the same time, this could execute the other action, that it's: show us the text on the other div (eText)
+		
+		Them search about how to desemcriptar that text, because it would be difficult
+		And the same, it would be use with the button
+		
+		In this case, I need to create many functions to use them to generate my solutions
+		1.
+			function('frase'){
+				document.write('varX')	Where varX = a var to get the text that the person put on the input	
+										So we need to connect the input with " var x = document.querySelector("input"); "
+			}
+		
+		2. Function about onclick "I DON'T REMEMBER HOW TO USE IT"
+		
+			
+		
+		*/
+	
+	</script>
+	
+
+    
+</html>
